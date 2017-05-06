@@ -1,5 +1,7 @@
 package core.fighter;
 
+import core.equipment.*;
+
 public abstract class AbstractFighter {
 	
 	private String name;
@@ -17,6 +19,6 @@ public abstract class AbstractFighter {
 	private long weaponBonus; // improve basicAttack
 	private long armorBonus;  // improve basicDefence
 	
-	
+	private Weapon weapon;
 		
 }
