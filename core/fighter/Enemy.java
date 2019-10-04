@@ -3,9 +3,10 @@ package core.fighter;
 import core.equipment.Armor;
 import core.equipment.Weapon;
 
-public class Warrior extends AbstractFighter {
+//TODO co udelat list bossu nebo specialnich protivniku?
+public class Enemy extends AbstractFighter {
 
-	public Warrior(String name, long health, long strength, 
+	public Enemy(String name, long health, long strength, 
 			long endurance, long stamina, long speed, long energyChi,
 			long basicAttack, long basicDefence, long weaponBonus, 
 			long armorBonus, Weapon weapon, Armor armor) 
@@ -14,5 +15,6 @@ public class Warrior extends AbstractFighter {
 				energyChi, basicAttack, basicDefence, weaponBonus, 
 				armorBonus,weapon, armor);
 	}
+
 	
 }
